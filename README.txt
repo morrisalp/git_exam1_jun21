@@ -1,2 +1,2 @@
-This is the repository for the Git 1 exam.
+This is the Git repository for the Git section of exam 1 for the ITC Fellowz course.
 Good luck!
