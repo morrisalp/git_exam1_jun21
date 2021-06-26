@@ -1,12 +1,13 @@
-from random import random
+from random import choice
+
+
+greetings = [
+    "Hello! Nice to see you.",
+    "Hi! How are you?"
+]
 
 def main():
-    r = random()
-    if r < 0.5:
-        print("Hello! Nice to see you.")
-    else:
-        print("Hi! How are you?")
-
+    print(choice(greetings))
 
 if __name__ == "__main__":
     main()
