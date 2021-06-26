@@ -7,7 +7,7 @@ greetings = [
 ]
 
 def main():
-    print(choice(greetings))
+    return choice(greetings)
 
 if __name__ == "__main__":
     main()
